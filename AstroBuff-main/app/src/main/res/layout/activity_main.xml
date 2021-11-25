@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--text-->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="This is Home page"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <!--Space Background-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:src="@drawable/news" />
+
+    <!--Picture of the Day Background-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="171dp"
+        android:src="@drawable/day" />
+
+    <!--iss Background-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/iss" />
+
+
+    <!--Space News/Update button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#1B24B1"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="openSpaceNewsUpdates"
+        android:text="Space News/Updates"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <!--Picture of the Day button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="245dp"
+        android:backgroundTint="#A67123"
+        android:gravity="center"
+        android:onClick="openPictureOfTheDay"
+        android:text="Picture of the Day"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <!--ISS Location Tracking button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="#017DBF"
+        android:gravity="center"
+        android:onClick="openISSLocationTracking"
+        android:textColor="@color/white"
+        android:text="ISS Location Tracking"
+        android:textSize="20dp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpaceNewsUpdates">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/link_a"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/white"
+                android:background="@drawable/grad1"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/link_b"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/white"
+                android:background="@drawable/grad1"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/link_c"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/white"
+                android:background="@drawable/grad1"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/link_d"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/white"
+                android:background="@drawable/grad1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/link_e"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textColor="@color/white"
+                android:background="@drawable/grad1"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/link_more"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:fontFamily="monospace"
+        android:text="READ MORE..."
+        android:textColor="@color/white"
+        android:background="@drawable/grad3"/>
+
+
+</RelativeLayout>
